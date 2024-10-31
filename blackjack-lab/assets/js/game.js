@@ -56,7 +56,7 @@ const computerTurn = (minPoints) => {
         pointsRef[1].innerText = computerPoints;
 
         const newCard = document.createElement('img');
-        newCard.src = `/assets/cartas/${card}.png`;
+        newCard.src = `/public/cartas/${card}.png`;
         newCard.classList.add('cards');
         computerCards.append(newCard);
 
@@ -82,7 +82,7 @@ btnAsk.addEventListener('click', () => {
     pointsRef[0].innerText = playerPoints;
 
     const newCard = document.createElement('img');
-    newCard.src = `/assets/cartas/${card}.png`;
+    newCard.src = `/public/cartas/${card}.png`;
     newCard.classList.add('cards');
     playerCards.append(newCard);
 
