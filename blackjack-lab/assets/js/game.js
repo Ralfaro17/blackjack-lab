@@ -1,4 +1,6 @@
 import '../css/styles.css';
+import './underscore-min'
+
 // Global variables
 let deck = [];
 const types = ['C', 'D', 'H', 'S'];
