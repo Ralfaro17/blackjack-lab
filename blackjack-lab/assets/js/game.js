@@ -1,3 +1,4 @@
+import '../css/styles.css';
 // Global variables
 let deck = [];
 const types = ['C', 'D', 'H', 'S'];
